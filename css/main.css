@@ -1,0 +1,65 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+
+#narwhal-body {
+  animation: body 1s linear;
+  stroke-dasharray: 2641.8912px;
+  stroke-dashoffset: 0px;
+}
+@keyframes body {
+
+  0% {
+    stroke-dashoffset: 2641.8912px;
+  }
+
+  100% {
+    stroke-dashoffset: 0px;
+  }
+
+}
+
+#narwhal-eye {
+  animation: eye .5s 1s linear forwards;
+  opacity: 0;
+}
+
+@keyframes eye {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+#narwhal-violet {
+
+}
+
+#narwhal-indigo {
+
+}
+
+#narwhal-blue {
+
+}
+
+#narwhal-green {
+
+}
+
+#narwhal-yellow {
+
+}
+
+#narwhal-orange {
+
+}
+
+#narwhal-red {
+
+}
