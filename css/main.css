@@ -2,11 +2,20 @@ html {
   font-family: "Unica One", sans-serif;
 }
 
+h1 {
+  position: absolute;
+  z-index: 1000;
+  color: #fff;
+  top: 1.6em;
+  left: 30px;
+}
+
 #narwhal-body {
   animation: body 1s linear;
   stroke-dasharray: 2641.8912px;
-  stroke-dashoffset: 0px;
+  stroke-dashoffset: 0;
 }
+
 @keyframes body {
 
   0% {
@@ -14,13 +23,13 @@ html {
   }
 
   100% {
-    stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
 
 }
 
 #narwhal-eye {
-  animation: eye .5s 1s linear forwards;
+  animation: eye .5s .5s linear forwards;
   opacity: 0;
 }
 
@@ -36,30 +45,128 @@ html {
 
 }
 
-#narwhal-violet {
+#rainbow-violet {
+  animation: vio 1s linear;
+  stroke-dasharray: 2556.9216px;
+  stroke-dashoffset: 0;
+}
+
+@keyframes vio {
+
+  0% {
+    stroke-dashoffset: 2556.9216px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
 
 }
 
-#narwhal-indigo {
+#rainbow-indigo {
+  animation: indie 1s linear;
+  stroke-dasharray: 2416.6656px;
+  stroke-dashoffset: 0;
+}
+
+@keyframes indie {
+
+  0% {
+    stroke-dashoffset: 2416.6656px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
 
 }
 
-#narwhal-blue {
+#rainbow-blue {
+  animation: bl 1s linear;
+  stroke-dasharray: 2273.9712px;
+  stroke-dashoffset: 0;
+}
+
+@keyframes bl {
+
+  0% {
+    stroke-dashoffset: 2273.9712px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
 
 }
 
-#narwhal-green {
+#rainbow-green {
+  animation: gre 1s linear;
+  stroke-dasharray: 2128.0608px;
+  stroke-dashoffset: 0;
+}
+
+@keyframes gre {
+
+  0% {
+    stroke-dashoffset: 2128.0608px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
 
 }
 
-#narwhal-yellow {
+#rainbow-yellow {
+  animation: yell 1s linear;
+  stroke-dasharray: 1977.8016px;
+  stroke-dashoffset: 0;
+}
+
+@keyframes yell {
+
+  0% {
+    stroke-dashoffset: 1977.8016px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
 
 }
 
-#narwhal-orange {
+#rainbow-orange {
+  animation: orb 1s linear;
+  stroke-dasharray: 1821.6768px;
+  stroke-dashoffset: 0;
+}
+
+@keyframes orb {
+
+  0% {
+    stroke-dashoffset: 1821.6768px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
 
 }
 
-#narwhal-red {
+#rainbow-red {
+  animation: re 1s linear;
+  stroke-dasharray: 1657.392px;
+  stroke-dashoffset: 0;
+}
+
+@keyframes re {
+
+  0% {
+    stroke-dashoffset: 1657.392px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
 
 }
